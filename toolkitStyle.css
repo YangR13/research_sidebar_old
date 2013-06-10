@@ -1,0 +1,46 @@
+#buttons {
+	width:349px;
+	height:30px;
+	border-left: 1px solid #aaaaab;
+	position:absolute;
+	bottom:0;
+	left:0;
+	background: -webkit-linear-gradient(top, #f6f7f7, #eeeeee);
+	-webkit-box-shadow: 1px 0px 8px 0px #aaaaab;
+	z-index:1;
+}
+#left, #mid, #right {
+	width:calc(357px/3);
+	margin-left:0px;
+	margin-right:-7px;
+	height: 100%;
+	outline:none;
+}
+
+#link_container {
+	padding-right:10px;
+	padding-left:10px;
+}
+
+.mindy {
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:349px;
+	height:300px;
+	border-left: 1px solid #aaaaab;
+	display:none;
+	-webkit-box-shadow: 1px 0px 8px 0px #aaaaab;
+}
+#mindy1 {
+	background-color:white;
+}
+#mindy2 {
+	background-color:white;
+}
+#mindy3 {
+	background-color:white;
+}
+.delete_button {
+	width: 25px;
+}

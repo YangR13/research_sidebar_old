@@ -1,0 +1,40 @@
+<html>
+<head>
+	<title>This is a test page</title>
+</head>
+<body>
+	<div id="AppSidebar">
+		<div id="AppNav">
+			<div id="logo">Research App v0.3 Alpha</div>
+			<div id="button">
+				<button id="addNote" type="button" onclick="createNote()">+</button>
+				<button id="toggleDelete" type="button" onclick="toggleDelete()">-</button> 
+				<a id="download_link"><button id='export' type='button'>E</button></a>
+			</div> 
+		</div>
+		<div id="AppContent">
+			<!--Moved to sidebarJS.js :D -->
+		</div>
+
+	</div>
+	<div id="AppBottom">
+		<div id="buttons">
+			<input id="left" type="submit" value="Link List" onclick="button1();"/>
+			<input id="mid" type="submit" value="Dictionary" onclick="button2();"/>
+			<input id="right" type="submit" value="Wikipedia" onclick="button3();"/>
+		</div>
+		<div id="mindy1" class="mindy">
+			<div>
+				<input type="submit" name="list_add" value="Get URL" onclick="newLink();"/>
+			</div>
+			<div id="link_container"></div>
+		</div>
+		<div id="mindy2" class="mindy">
+			<iframe src="http://m.dictionary.com/" width="346px" height="292px"></iframe>
+		</div>
+		<div id="mindy3" class="mindy">
+			<iframe src="http://en.m.wikipedia.org/" width="346px" height="292px"></iframe>
+		</div>
+	</div>
+</body>
+</html>
