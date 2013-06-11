@@ -48,14 +48,10 @@ var toggle = function() {
 	if (moveToggle) {
 		document.getElementById('buttons').style.marginBottom = "0px";
 		document.getElementById("AppSidebar").style.height = "calc(100% - 30px)";
-		// $("#AppBottom").animate({height:"30px"});
-		// $("#AppSidebar").animate({height:"calc(100% - 30px)"});
 		moveToggle = false;
 	} else {
 		document.getElementById('buttons').style.marginBottom = "300px";
 		document.getElementById("AppSidebar").style.height = "calc(100% - 330px)";
-		// $("#AppBottom").animate({height:"330px"});
-		// $("#AppSidebar").animate({height:"calc(100% - 330px)"});
 		moveToggle = true;
 	}
 }

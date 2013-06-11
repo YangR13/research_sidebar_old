@@ -49,29 +49,29 @@ width:22px;
 } 
 /***Buttons**/
 #addNote {
-background-image:url("ButtonPlus.png");
+background-image:url("images/ButtonPlus.png");
 border:0px;
 }
 #addNote:active {
-background-image:url("ButtonPlus2.png");
+background-image:url("images/ButtonPlus2.png");
 border:0px;
 }
 
 #toggleDelete {
-background-image:url("ButtonMinus.png");
+background-image:url("images/ButtonMinus.png");
 border:0px;
 }
 #toggleDelete:active {
-background-image:url("ButtonMinus2.png");
+background-image:url("images/ButtonMinus2.png");
 border:0px;
 }
 
 #export {
-background-image:url("ButtonExport.png");
+background-image:url("images/ButtonExport.png");
 border:0px;
 }
 #export:active {
-background-image:url("ExportButtonDown.png");
+background-image:url("images/ExportButtonDown.png");
 border:0px;
 }
 /************/

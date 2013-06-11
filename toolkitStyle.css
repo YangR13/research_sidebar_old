@@ -14,7 +14,7 @@ border-left: 1px solid #aaaaab;
             border-right:0px solid #aaaaab; 
             border-bottom:0px solid #aaaaab; 
             border-left:0px solid black;  
-            background-image:url("Tab.png"); 
+            background-image:url("images/Tab.png"); 
 } 
 .mindy { 
             position:absolute; 
@@ -46,13 +46,13 @@ border-left: 1px solid #aaaaab;
 }
 
 #GetLink {
-background-image:url("2chainz.png");
+background-image:url("images/2chainz.png");
 border:0px;
 width:22px;
 height:22px;
 }
 #GetLink:active {
-background-image:url("2chainzdown.png");
+background-image:url("images/2chainzdown.png");
 border:0px;
 width:22px;
 height:22px;
