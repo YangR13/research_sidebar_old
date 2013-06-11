@@ -1,46 +1,59 @@
-#buttons {
-	width:349px;
-	height:30px;
-	border-left: 1px solid #aaaaab;
-	position:absolute;
-	bottom:0;
-	left:0;
-	background: -webkit-linear-gradient(top, #f6f7f7, #eeeeee);
-	-webkit-box-shadow: 1px 0px 8px 0px #aaaaab;
-	z-index:1;
-}
-#left, #mid, #right {
-	width:calc(357px/3);
-	margin-left:0px;
-	margin-right:-7px;
-	height: 100%;
-	outline:none;
-}
-
-#link_container {
-	padding-right:10px;
-	padding-left:10px;
-}
-
-.mindy {
-	position:absolute;
-	bottom:0;
-	left:0;
-	width:349px;
-	height:300px;
-	border-left: 1px solid #aaaaab;
-	display:none;
-	-webkit-box-shadow: 1px 0px 8px 0px #aaaaab;
-}
+#buttons { 
+            width:348px; 
+            height:30px; 
+            position:absolute; 
+            bottom:0; 
+            left:0; 
+            z-index:1; 
+            background:white;
+border-left: 1px solid #aaaaab;
+} 
+#left, #mid, #right { 
+            height: 100%; 
+            border-top:0px solid #aaaaab; 
+            border-right:0px solid #aaaaab; 
+            border-bottom:0px solid #aaaaab; 
+            border-left:0px solid black;  
+            background-image:url("Tab.png"); 
+} 
+.mindy { 
+            position:absolute; 
+            bottom:0; 
+            left:0; 
+            width:348px; 
+            height:300px; 
+            display:none; 
+} 
 #mindy1 {
 	background-color:white;
+
+	border-left: 1px solid #aaaaab;
+}
+#mindy1bar {
+	height:22px;
 }
 #mindy2 {
 	background-color:white;
+
+	border-left: 1px solid #aaaaab;
 }
 #mindy3 {
 	background-color:white;
+	border-left: 1px solid #aaaaab;
 }
 .delete_button {
 	width: 25px;
+}
+
+#GetLink {
+background-image:url("2chainz.png");
+border:0px;
+width:22px;
+height:22px;
+}
+#GetLink:active {
+background-image:url("2chainzdown.png");
+border:0px;
+width:22px;
+height:22px;
 }

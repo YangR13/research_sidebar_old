@@ -1,8 +1,8 @@
 {
 	"manifest_version": 2,
-	"name": "Research App",
-	"description": "This extension opens a notepad and other research resources/tools on the right side of the screen.",
-	"version": "0.3.1",
+	"name": "Research Sidebar",
+	"description": "This extension opens a note-taking sidebar on the right side of the screen.",
+	"version": "1.0",
 
 	"browser_action": { },
 
@@ -22,6 +22,15 @@
 	"sidebarJS.js",
 	"toolkitJS.js",
 	"toolkitStyle.css",
-	"sidebar_jquery.js"
+	"sidebar_jquery.js",
+	"images/Tab.png",
+	"images/ButtonPlus.png",
+	"images/ButtonPlus2.png",
+	"images/ButtonMinus.png",
+	"images/ButtonMinus2.png",
+	"images/ButtonExport.png",
+	"images/ExportButtonDown.png",
+	"images/2chainz.png",
+	"images/2chainzdown.png"
 	]
 }

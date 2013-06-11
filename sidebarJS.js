@@ -122,7 +122,7 @@ function exportNotes() {
 	var link = document.createElement('a');
 	link.href = window.URL.createObjectURL(blob);
 	link.download = "notes.txt";
-	link.innerHTML = "<button id='export' type='button'>E</button>";
+	link.innerHTML = "<button id='export' type='button'></button>";
 	link.id = "download_link";
 	link.style.width = "100px";
 	link.style.height = "100px";
